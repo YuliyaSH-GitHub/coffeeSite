@@ -1,0 +1,36 @@
+
+$white: #FFF;
+$black: #000;
+$cod-gray: #181818;
+$selective-yellow: #F9B300;
+$silver: #C4C4C4;
+
+$text-color-primary: $black;
+$background-color-page: $white;
+
+/**
+ * Layout
+ */
+$page-min-width: 1024px;
+$window-width-desktop: 1660px;
+
+
+/**
+ * Fonts
+ */
+$font-path: '~@/assets/fonts/';
+$font-family-default: 'Helvetica Neue', 'Arial', sans-serif;
+$font-family-custom: 'Roboto';
+$font-family:  $font-family-custom, $font-family-default;
+
+/**
+*Transition
+*/
+$transition-duration-normal: 300ms;
+
+
+/**
+* Z-indexes
+*/
+
+$z-index-header: 2;

@@ -22,3 +22,12 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+
+### Color
+https://chir.ag/projects/name-that-color/#6195ED
+```
+
+### Style
+https://github.com/csscomb/csscomb.js/blob/master/config/csscomb.json
+

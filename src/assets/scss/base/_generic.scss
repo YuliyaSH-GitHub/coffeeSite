@@ -24,3 +24,64 @@ body,
 #app {
   flex-grow: 1;
 }
+
+html {
+  font-family: $font-family;
+  font-size: 100%;
+
+  height: 100%;
+
+  // color: $text-color-primary;
+  background-color: $background-color-page;
+
+  text-rendering: optimizeLegibility; //Свойство text-renderingCSS предоставляет механизму рендеринга информацию о том, что следует оптимизировать при рендеринге текста.
+//optimizeLegibility - Браузер делает упор на удобочитаемость, а не на скорость рендеринга и геометрическую точность.
+}
+
+body {
+  // @include text-medium;
+
+  // position: relative;
+
+  min-width: $page-min-width;
+}
+
+a,
+button,
+input,
+textarea {
+  &:focus {
+    outline: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:-webkit-any-link,
+  &:-webkit-any-link:active,
+  &:visited {
+    color: inherit;
+  }
+}
+
+input,
+textarea,
+button {
+  padding: 0;
+
+  color: inherit;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+button {
+  cursor: pointer;
+
+  user-select: none;
+
+  appearance: none;
+
+  vertical-align: middle;
+}

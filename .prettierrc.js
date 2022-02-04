@@ -3,7 +3,15 @@ module.exports = {
   vueIndentScriptAndStyle: true,
   trailingComma: 'es5',
   bracketSpacing: false,
-
-  semicolons: true,
-  tabWidth: 2,
 };
+
+// module.exports = {
+//   singleQuote: true,
+//   vueIndentScriptAndStyle: true,
+//   trailingComma: 'es5',
+//   bracketSpacing: false,
+//   jsxBracketSameLine: false, // закрывающийся jsx в этой же строке
+//   htmlWhitespaceSensitivity: 'css',
+//   semicolons: true,
+//   tabWidth: 2,
+// };

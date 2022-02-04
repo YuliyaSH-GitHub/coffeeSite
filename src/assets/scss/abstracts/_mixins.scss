@@ -1,0 +1,12 @@
+@mixin  list-style-reset {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+@mixin text-nav-link {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 130%;
+}
